@@ -13,6 +13,8 @@
 
 
 
+
+
 /* 解决头条小程序组件内引入字体不生效的问题 */
 
 
@@ -20,4 +22,278 @@
 
 
 
+
+/* --------Base-------- */
+.fz12 {
+  font-size: 0.6rem !important;
+}
+.fz14 {
+  font-size: 0.7rem !important;
+}
+.fz16 {
+  font-size: 0.8rem !important;
+}
+.fz18 {
+  font-size: 0.9rem !important;
+}
+.fz20 {
+  font-size: 1rem !important;
+}
+.fz22 {
+  font-size: 1.1rem !important;
+}
+.fz24 {
+  font-size: 1.2rem !important;
+}
+page {
+  background: #f5f5f5;
+}
+textarea {
+  resize: none;
+}
+:focus {
+  outline: 0;
+}
+.w1000 {
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4A4A4A;
+  font-weight: 400;
+}
+.clearfix:after {
+  display: block;
+  height: 0;
+  clear: both;
+  content: '\20';
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tal {
+  text-align: left;
+}
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
+.vat {
+  vertical-align: top;
+}
+.mt5 {
+  margin-top: 0.25rem;
+}
+.mr5 {
+  margin-right: 0.25rem;
+}
+.mb5 {
+  margin-bottom: 0.25rem;
+}
+.ml5 {
+  margin-left: 0.25rem;
+}
+.mt10 {
+  margin-top: 0.5rem;
+}
+.mr10 {
+  margin-right: 0.5rem;
+}
+.mb10 {
+  margin-bottom: 0.5rem;
+}
+.ml10 {
+  margin-left: 0.5rem;
+}
+.mt15 {
+  margin-top: 0.75remrem;
+}
+.mr15 {
+  margin-right: 0.75remrem;
+}
+.mb15 {
+  margin-bottom: 0.75remrem;
+}
+.ml15 {
+  margin-left: 0.75remrem;
+}
+.mt20 {
+  margin-top: 1rem;
+}
+.mr20 {
+  margin-right: 1rem;
+}
+.mb20 {
+  margin-bottom: 1rem;
+}
+.ml20 {
+  margin-left: 1rem;
+}
+.mt30 {
+  margin-top: 1.5rem;
+}
+.mr30 {
+  margin-right: 1.5rem;
+}
+.mb30 {
+  margin-bottom: 1.5rem;
+}
+.ml30 {
+  margin-left: 1.5rem;
+}
+.pt5 {
+  padding-top: 0.25rem;
+}
+.pr5 {
+  padding-right: 0.25rem;
+}
+.pb5 {
+  padding-bottom: 0.25rem;
+}
+.pl5 {
+  padding-left: 0.25rem;
+}
+.pt10 {
+  padding-top: 0.5rem;
+}
+.pr10 {
+  padding-right: 0.5rem;
+}
+.pb10 {
+  padding-bottom: 0.5rem;
+}
+.pl10 {
+  padding-left: 0.5rem;
+}
+.pt15 {
+  padding-top: 0.75remrem;
+}
+.pr15 {
+  padding-right: 0.75remrem;
+}
+.pb15 {
+  padding-bottom: 0.75remrem;
+}
+.pl15 {
+  padding-left: 0.75remrem;
+}
+.pt20 {
+  padding-top: 1rem;
+}
+.pr20 {
+  padding-right: 1rem;
+}
+.pb20 {
+  padding-bottom: 1rem;
+}
+.pl20 {
+  padding-left: 1rem;
+}
+.pt30 {
+  padding-top: 1.5rem;
+}
+.pr30 {
+  padding-right: 1.5rem;
+}
+.pb30 {
+  padding-bottom: 1.5rem;
+}
+.pl30 {
+  padding-left: 1.5rem;
+}
+.white-box {
+  background: #fff;
+  box-shadow: 0 0.05rem 0.2rem rgba(0, 0, 0, 0.05);
+}
+.bottom-line {
+  border-bottom: 0.05rem solid #efefef;
+}
+.mrla {
+  margin-left: auto;
+  margin-right: auto;
+}
+.tabs1 {
+  background: #F5F5F5;
+  padding: 0.25rem;
+  background: #fff;
+}
+.tabs1 > .title1 {
+  width: 100%;
+  height: 10rem;
+}
+.tabs1 > .title1 .swiper-box {
+  height: 10rem;
+}
+.tabs1 > .title2 {
+  padding: 0.5rem;
+}
+.tabs1 > .title2 > uni-navigator {
+  height: 3rem;
+  width: 7rem;
+}
+.tabs1 > .title2 > uni-navigator > uni-button {
+  display: inline-block;
+  line-height: 1rem;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+}
+.tabs1 > .title2 > uni-navigator > uni-button > .bigsize {
+  font-size: 1rem;
+}
+.tabs1 > .title2 > uni-navigator > uni-button > .minsize {
+  font-size: 0.6rem;
+}
+.tabs1 > .title3 .uni-searchbar {
+  height: 1.6rem;
+}
+.tabs1 > .title3 .uni-searchbar .uni-searchbar__box {
+  height: 1.6rem;
+  line-height: 1.6rem;
+  border-radius: 1rem !important;
+}
+.tabs1 > .title4 .segmented-control {
+  height: 1.8rem;
+}
+.tabs1 > .title4 .list {
+  padding: 0.5rem;
+  background: #F5F5F5;
+}
+.tabs1 > .title4 .list > uni-view {
+  margin-bottom: 0.5rem;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+.tabs1 > .title4 .list .min-size {
+  font-size: 0.7rem;
+  color: #9B9B9B;
+}
+.tabs1 > .title4 .list .min-size .red {
+  color: #F55955;
+}
+.tabs1 > .title4 .list .min-size .big {
+  font-size: 0.9rem;
+}
+.tabs1 > .title4 .list .min-size .line {
+  text-decoration: line-through;
+}
+.tabs1 > .title4 .list .text-s {
+  padding-bottom: 0.25rem;
+}
+.tabs1 > .title4 .list .text-s > uni-text {
+  line-height: 1.5rem;
+  height: 1.5rem;
+}
+.tabs1 > .title4 .list .text-s > .button {
+  float: right;
+  margin-right: 0.5rem;
+  display: inline-block;
+  line-height: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.7rem;
+  padding: 0 0.5em;
+}
 

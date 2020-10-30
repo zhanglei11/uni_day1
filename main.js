@@ -4,6 +4,9 @@ import App from './App'
 import { myRequest } from './util/api.js'
 Vue.prototype.$myRuquest = myRequest
 
+import '@/styles/index.less'
+
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'
