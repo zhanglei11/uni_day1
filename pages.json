@@ -47,7 +47,7 @@
     "backgroundColor": "#ffffff",
     "height": "50px",
     "fontSize": "10px",
-    "iconWidth": "24px",
+    // "iconWidth": "24px",
     "spacing": "3px",
     "list": [{
         "pagePath": "pages/list/tabs1",
