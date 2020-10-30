@@ -173,6 +173,7 @@ var _default =
     } },
 
   created: function created() {
+    console.log("11111");
     this.getLogin();
   } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-alipay/dist/index.js */ 1)["default"]))

@@ -41,6 +41,7 @@
       }
     },
     created(){
+      console.log("11111")
       this.getLogin()
     }
 	}
