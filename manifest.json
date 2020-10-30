@@ -42,10 +42,20 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "touristappid",
+        "appid" : "",
         "setting" : {
-            "urlCheck" : true,
-            "minified" : false
+            "urlCheck" : false,
+            "minified" : true,
+            "es6" : true,
+            "postcss" : false
+        },
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : ""
+            }
         }
+    },
+    "mp-alipay" : {
+        "appid" : "2021002104652451"
     }
 }

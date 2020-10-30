@@ -146,7 +146,6 @@
 </script>
 
 <style lang="less">
-  .tabs1 {}
   .aaaa {
     padding: 10px;
     border-radius: 10px;

@@ -1,0 +1,1 @@
+<view>此处为调用接口案例<view a:for="{{list}}" a:for-item="item" a:for-index="__i0__" a:key="id"><text class="mr20">{{item.name}}</text><text>{{item.parent_name}}</text></view></view>

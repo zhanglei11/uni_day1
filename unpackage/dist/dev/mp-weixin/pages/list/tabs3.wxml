@@ -1,1 +1,0 @@
-<view>此处为调用接口案例<block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view><text class="mr20">{{item.name}}</text><text>{{item.parent_name}}</text></view></block></view>
