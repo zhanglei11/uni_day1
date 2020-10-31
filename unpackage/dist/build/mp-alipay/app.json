@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/list/tabs1",
+    "pages/list/tabs2",
+    "pages/list/tabs3",
+    "pages/list/tabs4",
+    "pages/index/index",
+    "pages/list/info/info"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uniApp",
+    "titleBarColor": "#007AFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#fff",
+    "items": [
+      {
+        "pagePath": "pages/list/tabs1",
+        "name": "首页",
+        "icon": "static/icon/tab/icon_home.png",
+        "activeIcon": "static/icon/tab/icon_home_c.png"
+      },
+      {
+        "pagePath": "pages/list/tabs2",
+        "name": "分类",
+        "icon": "static/icon/tab/icon_wode.png",
+        "activeIcon": "static/icon/tab/icon_wode_c.png"
+      },
+      {
+        "pagePath": "pages/list/tabs3",
+        "name": "购物车",
+        "icon": "static/icon/tab/icon_xiaoxi.png",
+        "activeIcon": "static/icon/tab/icon_xiaoxi_c.png"
+      },
+      {
+        "pagePath": "pages/list/tabs4",
+        "name": "我的",
+        "icon": "static/icon/tab/icon_TA.png",
+        "activeIcon": "static/icon/tab/icon_TA_c.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,1 +1,1 @@
-<view><view>{{''+aa+''}}</view><view>{{bb}}</view></view>
+<view><view class="tabs4"><button class="button" type="primary" size="mini" data-event-opts="{{[['tap',[['init',['$event']]]]]}}" onTap="__e">登录</button></view><view>{{bb}}</view></view>

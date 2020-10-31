@@ -1,0 +1,1 @@
+<view><view class="title">这个文件干嘛来着</view><image style="width:100%;height:400rpx;" src="{{imageSrc}}" mode="scaleToFill"></image></view>

@@ -101,13 +101,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   uniSwiperDot: function() {
-    return __webpack_require__.e(/*! import() | components/uni-swiper-dot/uni-swiper-dot */ "components/uni-swiper-dot/uni-swiper-dot").then(__webpack_require__.bind(null, /*! @/components/uni-swiper-dot/uni-swiper-dot.vue */ 52))
+    return __webpack_require__.e(/*! import() | components/uni-swiper-dot/uni-swiper-dot */ "components/uni-swiper-dot/uni-swiper-dot").then(__webpack_require__.bind(null, /*! @/components/uni-swiper-dot/uni-swiper-dot.vue */ 69))
   },
   uniSearchBar: function() {
-    return __webpack_require__.e(/*! import() | components/uni-search-bar/uni-search-bar */ "components/uni-search-bar/uni-search-bar").then(__webpack_require__.bind(null, /*! @/components/uni-search-bar/uni-search-bar.vue */ 59))
+    return __webpack_require__.e(/*! import() | components/uni-search-bar/uni-search-bar */ "components/uni-search-bar/uni-search-bar").then(__webpack_require__.bind(null, /*! @/components/uni-search-bar/uni-search-bar.vue */ 76))
   },
   uniSegmentedControl: function() {
-    return __webpack_require__.e(/*! import() | components/uni-segmented-control/uni-segmented-control */ "components/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @/components/uni-segmented-control/uni-segmented-control.vue */ 66))
+    return __webpack_require__.e(/*! import() | components/uni-segmented-control/uni-segmented-control */ "components/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @/components/uni-segmented-control/uni-segmented-control.vue */ 83))
   }
 }
 var render = function() {
@@ -145,168 +145,168 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-var _default =
-{
-  data: function data() {
-    return {
-      items: ['选项卡1', '选项卡2', '选项卡3'],
-      current: 0,
-
-      infoImage: [{
-        mode: 'aspectFill',
-        src: '/static/image/image1.jpg' },
-      {
-        mode: 'scaleToFill',
-
-        src: '/static/image/image2.jpeg' },
-      {
-        mode: 'scaleToFill',
-
-        src: '/static/image/image3.jpeg' }],
-
-      currentImage: 0,
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
 
 
 
-      imageCard: '/static/image/image1.jpg',
-      list: [{
-        image: '/static/image/image1.jpg',
-        name: '关于美女的介绍',
-        name1: '这里我再介绍一次',
-        money: '￥14',
-        moneymin: '.30',
-        moneyOld: '22.40',
-        num: '已售15件/仅剩20件' },
-
-      {
-        image: '/static/image/image1.jpg',
-        name: '关于美女的介绍',
-        name1: '这里我再介绍一次',
-        money: '￥14',
-        moneymin: '.30',
-        moneyOld: '22.40',
-        num: '已售15件/仅剩20件' },
-
-      {
-        image: '/static/image/image1.jpg',
-        name: '关于美女的介绍',
-        name1: '这里我再介绍一次',
-        money: '￥14',
-        moneymin: '.30',
-        moneyOld: '22.40',
-        num: '已售15件/仅剩20件' },
-
-      {
-        image: '/static/image/image1.jpg',
-        name: '关于美女的介绍',
-        name1: '这里我再介绍一次',
-        money: '￥14',
-        moneymin: '.30',
-        moneyOld: '22.40',
-        num: '已售15件/仅剩20件' },
-
-      {
-        image: '/static/image/image1.jpg',
-        name: '关于美女的介绍',
-        name1: '这里我再介绍一次',
-        money: '￥14',
-        moneymin: '.30',
-        moneyOld: '22.40',
-        num: '已售15件/仅剩20件' },
-
-      {
-        image: '/static/image/image1.jpg',
-        name: '关于美女的介绍',
-        name1: '这里我再介绍一次',
-        money: '￥14',
-        moneymin: '.30',
-        moneyOld: '22.40',
-        num: '已售15件/仅剩20件' }] };
 
 
 
-  },
-  methods: {
-    //图片滑动
-    changeImage: function changeImage(e) {
-      console.log(e);
-      this.currentImage = e.detail.current;
-    },
-    //查询
-    search: function search(e) {
-      this.$refs.popup.open();
-      console.log(e);
-    },
-    //取消查询
-    cancelSearch: function cancelSearch(e) {
-      console.log(e);
-    },
-    //切换栏目
-    onClickItem: function onClickItem(e) {
-      console.log(e);
-      if (this.current !== e.currentIndex) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__webpack_require__(/*! ./index.less */ 19); //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default = { data: function data() {return { infoImage: [{ //轮播图图片
+        id: 1, mode: 'aspectFill', src: '/static/image/image22.jpeg' }, { id: 2, mode: 'scaleToFill', src: '/static/image/image33.jpeg' }, { id: 1, mode: 'scaleToFill', src: '/static/image/image44.jpeg' }], currentImage: 0, //选中状态
+      items: ['选项卡1', '选项卡2', '选项卡3'], current: 0, imageCard: '/static/image/image1.jpg', list: [] };}, methods: { //图片滑动
+    changeImage: function changeImage(e) {console.log('图片滑动触发');console.log(e);this.currentImage = e.detail.current;}, //点击图片
+    checkImage: function checkImage(item) {console.log(item);uni.navigateTo({ url: "/pages/list/info/info?id=".concat(item.id, "&imageSrc=").concat(item.src) });}, //查询
+    search: function search(e) {this.$refs.popup.open();console.log(e);}, //取消查询
+    cancelSearch: function cancelSearch(e) {console.log(e);}, //切换栏目
+    onClickItem: function onClickItem(e) {console.log(e);if (this.current !== e.currentIndex) {
         this.current = e.currentIndex;
       }
-    } } };exports.default = _default;
+    },
+    //初始化列表
+    init: function init() {
+      this.list = [];
+      for (var i = 1; i < 10; i++) {
+        var jj = String(i) + String(i) + String(i);
+        var bb = String(i) + String(i);
+        var cc = parseInt(bb) * 4;
+        var obj = {
+          id: i,
+          image: "/static/image/image".concat(jj, ".jpeg"),
+          name: "\u8FD9\u662F\u7B2C".concat(i, "\u56FE\u7247"),
+          name1: "\u8FD9\u662F\u7B2C".concat(i, "\u56FE\u7247\u7684\u5177\u6709\u4ECB\u7ECD"),
+          money: "\uFFE5".concat(bb),
+          moneymin: ".".concat(bb),
+          moneyOld: "".concat(cc, ".").concat(bb),
+          num: "\u5DF2\u552E".concat(cc, "\u4EF6/\u4EC5\u5269").concat(cc * 3, "\u4EF6") };
+
+        this.list.push(obj);
+      }
+    },
+    _chgo: function _chgo(item) {
+      console.log(item);
+      switch (item.id) {
+        case 1:
+          uni.navigateTo({
+            url: "/pages/list/info/chgo" });
+
+          break;
+        case 2:
+          uni.navigateTo({
+            url: "/pages/list/info/chgo2" });
+
+          break;
+        case 3:
+          uni.navigateTo({
+            url: "/pages/list/info/chgo2" });
+
+          break;
+        default:
+          break;}
+
+
+    } },
+
+  created: function created() {
+    this.init();
+  } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-alipay/dist/index.js */ 1)["default"]))
 
 /***/ })
 ],[[13,"common/runtime","common/vendor"]]]);

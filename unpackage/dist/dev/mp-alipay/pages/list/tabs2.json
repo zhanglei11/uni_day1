@@ -1,6 +1,4 @@
 {
   "defaultTitle": "分类",
-  "usingComponents": {
-    "uni-icons": "/components/uni-icons/uni-icons"
-  }
+  "usingComponents": {}
 }

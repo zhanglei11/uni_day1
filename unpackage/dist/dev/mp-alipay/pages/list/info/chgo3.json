@@ -1,0 +1,14 @@
+{
+  "defaultTitle": "学习页",
+  "usingComponents": {
+    "uni-combox": "/components/uni-combox/uni-combox",
+    "uni-countdown": "/components/uni-countdown/uni-countdown",
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "uni-fab": "/components/uni-fab/uni-fab",
+    "uni-fav": "/components/uni-fav/uni-fav",
+    "uni-goods-nav": "/components/uni-goods-nav/uni-goods-nav",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-grid-item": "/components/uni-grid-item/uni-grid-item",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

@@ -4,7 +4,12 @@
     "pages/list/tabs2",
     "pages/list/tabs3",
     "pages/list/tabs4",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/list/info/info",
+    "pages/list/info/chgo",
+    "pages/list/info/chgo2",
+    "pages/list/info/chgo3",
+    "pages/list/info/chgo4"
   ],
   "subPackages": [],
   "window": {
@@ -15,23 +20,31 @@
   "tabBar": {
     "textColor": "#7A7E83",
     "selectedColor": "#3cc51f",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#fff",
     "items": [
       {
         "pagePath": "pages/list/tabs1",
-        "name": "首页"
+        "name": "首页",
+        "icon": "static/icon/tab/icon_home.png",
+        "activeIcon": "static/icon/tab/icon_home_c.png"
       },
       {
         "pagePath": "pages/list/tabs2",
-        "name": "分类"
+        "name": "分类",
+        "icon": "static/icon/tab/icon_wode.png",
+        "activeIcon": "static/icon/tab/icon_wode_c.png"
       },
       {
         "pagePath": "pages/list/tabs3",
-        "name": "购物车"
+        "name": "购物车",
+        "icon": "static/icon/tab/icon_xiaoxi.png",
+        "activeIcon": "static/icon/tab/icon_xiaoxi_c.png"
       },
       {
         "pagePath": "pages/list/tabs4",
-        "name": "我的"
+        "name": "我的",
+        "icon": "static/icon/tab/icon_TA.png",
+        "activeIcon": "static/icon/tab/icon_TA_c.png"
       }
     ]
   },

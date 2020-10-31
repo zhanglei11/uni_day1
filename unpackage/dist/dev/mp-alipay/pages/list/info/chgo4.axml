@@ -1,0 +1,1 @@
+<view>学习页<view><uni-indexed-list vue-id="06307364-1" options="{{list}}" showSelect="{{false}}" data-event-opts="{{[['^click',[['bindClick']]]]}}" onClick="__e" onVueInit="__l"></uni-indexed-list></view></view>

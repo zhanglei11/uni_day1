@@ -1,82 +1,112 @@
 {
-	"pages": [
-  { //
-  	"path": "pages/list/tabs1",
-  	"style": {
-  		"navigationBarTitleText": "首页"
-  	}
+  "pages": [{ //
+      "path": "pages/list/tabs1",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    { //
+      "path": "pages/list/tabs2",
+      "style": {
+        "navigationBarTitleText": "分类"
+      }
+    },
+    { //
+      "path": "pages/list/tabs3",
+      "style": {
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    { //
+      "path": "pages/list/tabs4",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    { //
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-ui基础项目"
+      }
+    },
+    { //
+      "path": "pages/list/info/info",
+      "style": {
+        "navigationBarTitleText": "图片详情页"
+      }
+    }, {
+      "path": "pages/list/info/chgo",
+      "style": {
+        "navigationBarTitleText": "抢购详情页"
+      }
+    },
+    {
+      "path": "pages/list/info/chgo2",
+      "style": {
+        "navigationBarTitleText": "学习页"
+      }
+    },
+    {
+      "path": "pages/list/info/chgo3",
+      "style": {
+        "navigationBarTitleText": "学习页"
+      }
+    },
+    {
+      "path": "pages/list/info/chgo4",
+      "style": {
+        "navigationBarTitleText": "学习页"
+      }
+    }
+  ],
+
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uniApp",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#FFFFFF"
   },
-  { //
-  	"path": "pages/list/tabs2",
-  	"style": {
-  		"navigationBarTitleText": "分类"
-  	}
-  },
-  { //
-  	"path": "pages/list/tabs3",
-  	"style": {
-  		"navigationBarTitleText": "购物车"
-  	}
-  },
-  { //
-  	"path": "pages/list/tabs4",
-  	"style": {
-  		"navigationBarTitleText": "个人中心"
-  	}
-  },
-  { //
-  	"path": "pages/index/index",
-  	"style": {
-  		"navigationBarTitleText": "uni-ui基础项目"
-  	}
-  }],
-  
-	"globalStyle": {
-		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "uniApp",
-		"navigationBarBackgroundColor": "#007AFF",
-		"backgroundColor": "#FFFFFF"
-	},
-  
+
   "tabBar": {
     "color": "#7A7E83",
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
-    "backgroundColor": "#ffffff",
-    "height": "50px",
-    "fontSize": "10px",
+    "backgroundColor": "#fff",
+    // "height": "50px",
+    // "fontSize": "10px",
     // "iconWidth": "24px",
-    "spacing": "3px",
+    // "spacing": "3px",
     "list": [{
         "pagePath": "pages/list/tabs1",
-        // "iconPath": "static/image/icon_component.png",
-        // "selectedIconPath": "static/image/icon_component_HL.png",
+        "iconPath": "static/icon/tab/icon_home.png",
+        "selectedIconPath": "static/icon/tab/icon_home_c.png",
         "text": "首页"
-    }, {
+      }, {
         "pagePath": "pages/list/tabs2",
-        // "iconPath": "static/image/icon_API.png",
-        // "selectedIconPath": "static/image/icon_API_HL.png",
+        "iconPath": "static/icon/tab/icon_wode.png",
+        "selectedIconPath": "static/icon/tab/icon_wode_c.png",
         "text": "分类"
-    },
-    {
+      },
+      {
         "pagePath": "pages/list/tabs3",
-        // "iconPath": "static/image/icon_API.png",
-        // "selectedIconPath": "static/image/icon_API_HL.png",
+        "iconPath": "static/icon/tab/icon_xiaoxi.png",
+        "selectedIconPath": "static/icon/tab/icon_xiaoxi_c.png",
         "text": "购物车"
-    },
-    {
+      },
+      {
         "pagePath": "pages/list/tabs4",
-        // "iconPath": "static/image/icon_API.png",
-        // "selectedIconPath": "static/image/icon_API_HL.png",
+        "iconPath": "static/icon/tab/icon_TA.png",
+        "selectedIconPath": "static/icon/tab/icon_TA_c.png",
         "text": "我的"
-    }]
-    // "midButton": {
-    //     "width": "80px",
-    //     "height": "50px",
-    //     "text": "文字",
-    //     // "iconPath": "static/image/midButton_iconPath.png",
-    //     "iconWidth": "24px",
-    //     "backgroundImage": "static/image/midButton_backgroundImage.png"
-    // }
+      }
+    ],
+    "midButton": {
+      "width": "80px",
+      "height": "50px",
+      "text": "搜索",
+      "iconPath": "static/image/timg_mid.jpeg",
+      "iconWidth": "24px",
+      "backgroundImage": "static/image/timg_mid_back.jpeg"
+    }
   }
 }
