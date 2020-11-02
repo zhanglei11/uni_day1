@@ -1,7 +1,15 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-03-28 10:03:00
+ * @LastEditTime: 2020-11-02 16:22:40
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /uni_day1/pages/index/index.vue
+-->
 <template>
 	<view class="container">
 		<view class="intro">本项目已包含uni ui组件，无需import和注册，可直接使用。在代码区键入字母u，即可通过代码助手列出所有可用组件。光标置于组件名称处按F1，即可查看组件文档。</view>
-		<text class="intro">详见：</text>
+		<text class="intro">详见1111：</text>
 		<uni-link :href="href" :text="href"></uni-link>
 	</view>
 </template>
